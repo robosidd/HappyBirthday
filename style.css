@@ -17,11 +17,14 @@ body {
 #card {
   background-image: url("https://t4.ftcdn.net/jpg/04/20/09/31/360_F_420093156_dEpP6CgbzpAsZZNdpFigl7szRqMY861b.jpg");
   font-family: "Roboto";
+  font-size: 50px;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   border: 17px solid white;
-  width: 20%;
+  width: 100%;
   height: 70%;
 }
 
