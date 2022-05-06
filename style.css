@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#baloon2 {
+  width: 220px;
+  height: 320px;
+  animation: baloons 10s infinite;
+}
+#baloon1 {
+  width: 220px;
+  height: 320px;
+  animation: baloons 10s infinite;
+}
+#card {
+  background-image: url("https://t4.ftcdn.net/jpg/04/20/09/31/360_F_420093156_dEpP6CgbzpAsZZNdpFigl7szRqMY861b.jpg");
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 17px solid white;
+  width: 20%;
+  height: 70%;
+}
+
+@keyframes baloons {
+  0% {
+    transform: translateY(800px);
+  }
+  20% {
+    transform: translateY(400px);
+  }
+}
